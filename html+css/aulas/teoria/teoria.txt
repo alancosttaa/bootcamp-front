@@ -1,0 +1,104 @@
+
+Semântica 
+
+    Introdução
+
+Durante muitos anos o elemento padrão do HTML eram as div. Todo conteúdo era feito usando as divs, e isso gerava uma bagunça no código. Em 2014,
+foi criado novos elementos que deram significado aos elementos. E alguns desses elementos são:
+
+<section> Representa uma sessão genérica de conteúdo, ex: Uma lista de artigos </section>
+
+<header> Pode ser o cabeçalho da página ou de parte dela   </header>
+
+<article> Que representa um conteúdo relevante da página </article>
+
+<aside> Representa um conteúdo relacionado ao conteúdo principal da página, ex:  Biografia de um autor, geralmente representado por uma barra lateral</aside>
+
+<footer>rodapé da página, de um section</footer>
+
+<h1-h6> Títulos dentro de uma página, etc</h1-h6>
+
+Alguns elementos essenciais de uma estrutura HTML5
+
+<p> Para adicionarmos conteúdo em um parágrafo</p>
+
+<a herf = "link q queremos ir" target="_blank">conteúdo destacado onde será clicado </a>
+<a herf = "link q queremos ir">conteúdo destacado onde será clicado </a>
+diferença com target e sem target:
+
+com target: Nós iremos ser relacionado para uma página sem sair da atual, ou seja, irá abrir uma nova
+sem target: A página do link será carregada e exibida na página onde estamos.
+
+
+<img src = "caminho da imagem">
+<img src = "caminho da imagem" alt= "Foto do ícone do Gooogle">
+
+alt = descrição da imagem..
+
+Listas servem para agrupar uma coleção de itens:
+
+<ul>Representa uma lista onde a ordem dos itens não é importante</ul>
+
+<ol>Representa uma lista onde a ordem dos itens é importante e a tag <li> é im item dessa lista</li></ol>
+
+
+Css
+
+Nada mais é do que criar regras de estilos para elementos ou grupo de elementos. Uma regra CSS é criada por:
+
+Um seletor ou um grupo de seletores: 
+
+             seletores = são elementos html como "a","p","h1","div","header"..etc
+
+Um par de chaves = {} dentro dor par de chaves temos declarações:
+             uma declaração é formada por uma propriedade e um valor. ex: color: blue; font-size: 14px; etc
+            
+ex: de um CSS
+
+  h2{
+      color: blue;
+      font-size: 14px;
+  }
+
+O "problema" disso, nesse css estamos dizendo que todo elemento h2 será modificado com esses seletores, cor azul e tamaho 14pixels, e como fazemos para alterar um elemento em específico, sem alterar os demais do mesmo tipo? oO'
+
+Simples :)
+
+Temos que usar os id´s ou as classes. Para especificar um elemento html. E no CSS uma classe é precentida por um "." e o id por um "#".
+
+diferença entre id e classe: O id só pode ser usado apenas uma única vez na página
+
+Quando estamos layout de um site, o navegador representa cada elemento html com uma caixa retangular, chamamos essa caixa de BoxModel e com o CSS
+conseguimos alterar a aparência dessa caixa. E esse BoxModel contém quatro áreas:
+
+.margin
+ .. border
+   ...padding
+      ....conteúdo
+
+
+As margin são espaçamentos entre elementos
+As border elas circundam o padding e o conteúdo e conseguimos alterar a aparência delas, como largura e cor
+O padding é o espaçamento entre a border e conteúdo
+E o conteúdo é o conteúdo em sí, texto, imagem etc..
+
+Para enxegarmos o BoxModel iremos adicionar cores e bordas a alguns elementos, ex:
+
+.post-article{
+    background-color: royalblue;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
