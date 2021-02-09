@@ -91,14 +91,94 @@ Para enxegarmos o BoxModel iremos adicionar cores e bordas a alguns elementos, e
     margin: 10px;
 }
 
+Padding e Margin 
+
+Como adicionar valores diferentes para cada lado com o padding e o margin. Temos três possibilidade para isto:
+
+A primeira é adicionarmos um valor para o canto superior e inferior e depois para os cantos esquerdo e direito. Os primeiros valores representam o
+eixo y (cima baixo) e o segundo o eixo x (esquerdo direito)
+
+.post{
+  padding: 10px, 5px;
+}
+
+A segunda maneira é atribuir um valores específico para cada lado. A ordem é sempre esta:
+
+primeiro valor: topo
+segundo valores: direita
+terceiro valores: inferior
+quarto valor: esquerda
+
+.post{
+  padding: 10px, 5px, 30px, 20px;
+}
+
+E a ultima forma é utilizando as propriedades especificas para cada lado
+
+.post{
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+Background
+
+Com o background podemos alterar uma cor de fundo, adicionar uma imagem, mudar o tamanho desta imagem,etc.
+
+.post{
+  background-color: blue;
+  background-img: url();
+  background-position: top;
+}
+
+
+Border
+
+A propriedade border, pode possuir tres valores:
+
+largura: pixel, centimetros, milimetros..
+cor: azul, preto...
+estilo: sólida, pontilhada, tracejada...
+
+.post{
+  border: 3px, solid, blue;
+  border-top: 2px, dotted, green;
+  border-right: 5px, dashed, yellow;
+}
+
+
+Border raduis
+
+permite arredondar os cantos de um elemento:
+
+
+Estilização de textos
+
+O font-family: altera a fonte do nosso texto, podemos utilizar fonte da web ou da nossa máquina
+O font-size: Altera o tamanho.
+O font-style: Altera a aparência do texto
+O font-weight: Altera o peso dos textos
+O text-trasnforme: Altera o tamanho dos textos
+O text-decoration: destaca as palavras
 
 
 
+.psot{
+  font-family: Verdana, Arial;
+}
 
+Adicionamos duas, porque caso a primeira não funcione a segunda serve com backup.
 
+Dimensões e alinhamentos
 
+O width e o height: Servem para alinhar largura e altura. 
 
+Max-width: se refere a largura máxima que esses elementos podem ter
+Max-height: se refere a altura máxima que esses elementos podem ter
 
+Text align: alinhamentos de textos
 
+Margin: auto -> cria um espaço dos dois lados, assim temos uma margem que sempre se adequa ao tamanho da minha tela
 
 

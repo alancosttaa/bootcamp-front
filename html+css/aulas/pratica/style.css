@@ -1,10 +1,19 @@
 
 body{
-    background-color: blanchedalmond;
+    background-color: white;
+    font-family: Verdana;
+    width: 900px;
+    margin: auto; 
+    max-width: 900px;
 }
 
 #titulo-principal, .subtitulo, .post-title{
     color: tomato;
+    text-transform: uppercase;
+}
+
+.img-top{
+    border-radius: 50px;
 }
 
 .subtitulo{
@@ -14,21 +23,31 @@ body{
 .post-conteudo{
     color: black;
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
 .post-title{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 .lista-conteudo, .lista-itens{
     color: tomato;
     font-size: 16px;
+
 }
 
 .post-article{
-    background-color: royalblue;
     padding: 10px;
     border: 3px solid black;
-    margin: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.post-img{
+    margin-bottom: 10px;
+    width: 100%;
 }
